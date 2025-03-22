@@ -23,6 +23,7 @@ secom/
 ├── secom_labels.data       # 標籤數據
 ├── secom_fault_prediction.ipynb   # 主要分析與模型開發的Jupyter筆記本
 ├── README.md               # 專案說明文件
+├── .gitignore              # git忽略檔案
 │
 ├── results/                # 預測結果
 │   └── predictions.csv     # 模型預測輸出
@@ -82,7 +83,7 @@ secom/
 ### 階段 2: 數據預處理
 - 處理缺失值和異常值
 - 進行特徵工程與選擇
-- 實現ANOVA、相互資訊、PCA等特徵選擇方法
+- 實現ANOVA、Mutual Information、PCA等特徵選擇方法
 
 ### 階段 3: 模型開發與評估
 - 建立多種基準模型(邏輯回歸、隨機森林、梯度提升、SVM、MLP)
